@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Log in to Facebook]]>
+    </line>
+    <line>
+      <![CDATA[https://en-gb.facebook.com/login/?next=https%3A%2F%2Fen-gb.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-31T18:04:51 IST" name="Failed suite [Suite]" finished-at="2021-05-31T18:05:19 IST" duration-ms="28091">
+    <groups>
+    </groups>
+    <test started-at="2021-05-31T18:04:51 IST" name="Test(failed)" finished-at="2021-05-31T18:05:19 IST" duration-ms="28091">
+      <class name="testNg.Testcase3">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:testNg.Testcase3@ba54932]" started-at="2021-05-31T18:04:51 IST" name="openapp" finished-at="2021-05-31T18:05:00 IST" duration-ms="9051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="createApage()[pri:0, instance:testNg.Testcase3@ba54932]" started-at="2021-05-31T18:05:00 IST" name="createApage" finished-at="2021-05-31T18:05:15 IST" duration-ms="14653" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log in to Facebook]]>
+            </line>
+            <line>
+              <![CDATA[https://en-gb.facebook.com/login/?next=https%3A%2F%2Fen-gb.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createApage -->
+        <test-method is-config="true" signature="closespp()[pri:0, instance:testNg.Testcase3@ba54932]" started-at="2021-05-31T18:05:15 IST" name="closespp" finished-at="2021-05-31T18:05:19 IST" duration-ms="4300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closespp -->
+      </class> <!-- testNg.Testcase3 -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
